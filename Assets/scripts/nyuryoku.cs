@@ -31,6 +31,9 @@ public class nyuryoku : MonoBehaviour
 	{
 		isHantei = false;
 		displayquiz.henkan(beforeChar, n, keyChar, ref mondai);
+		if(keyChar == KeyCode.Space){
+			
+		}
 		if(mondai[n] != keyChar)	return;
 		beforeChar = mondai[n];
 		displayquiz.changeColor(n, mondai);

@@ -43,7 +43,8 @@ public class quiz : MonoBehaviour
 		nowTypeMa = GameObject.Find("NowType").GetComponent<NowTypeManager>();
 	}
 
-	void Start(){
+	void Start()
+	{
 		monTypeMa = this.transform.Find("MondaiType").gameObject.GetComponent<MondaiTypeManager>();
 		mondaiType = int.Parse(mondaiList[n][3]);
 		monTypeMa.SetType(mondaiList[n][3]);
@@ -61,6 +62,11 @@ public class quiz : MonoBehaviour
 		monTypeMa.SetType(mondaiList[n][3]);
 		
 		displayquiz.next();
+		
+	}
+
+	public void Reset()
+	{
 		
 	}
 

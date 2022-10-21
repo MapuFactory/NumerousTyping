@@ -1228,6 +1228,7 @@ RectTransform:
   - {fileID: 1409930956}
   - {fileID: 1691281220}
   - {fileID: 2040627837}
+  - {fileID: 2055963278}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4009,12 +4010,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2055963278}
   m_Layer: 0
-  m_Name: Aisho
+  m_Name: AishoUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2055963278
 Transform:
   m_ObjectHideFlags: 0
@@ -4022,14 +4023,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055963277}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 714.12256, y: 308.81818, z: 20.213974}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 438.9105, y: 137.81871, z: 23.746225}
+  m_LocalScale: {x: 1.174743, y: 1.174743, z: 1.174743}
   m_Children:
   - {fileID: 333608698}
   - {fileID: 939833845}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 648990873}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2060455624 stripped
 Transform:

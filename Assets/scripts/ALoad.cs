@@ -10,6 +10,7 @@ public class ALoad : MonoBehaviour
 	private GameObject enemyUIObj;
 	private GameObject startUIObj;
 	private GameObject canvasObj;
+	private GameObject aishoUIObj;
 	private SpaceStartScript sss;
 
 	void Start()
@@ -38,8 +39,10 @@ public class ALoad : MonoBehaviour
 		playerUIObj = canvasObj.transform.Find("Player").gameObject;
 		enemyUIObj = canvasObj.transform.Find("Enemy").gameObject;
 		startUIObj = canvasObj.transform.Find("StartMessage").gameObject;
+		aishoUIObj = canvasObj.transform.Find("AishoUI").gameObject;
 		playerUIObj.SetActive(true);
 		enemyUIObj.SetActive(true);
 		startUIObj.SetActive(false);
+		aishoUIObj.SetActive(true);
 	}
 }
